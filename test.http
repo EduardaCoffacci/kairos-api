@@ -1,0 +1,11 @@
+POST http://localhost:3000/contact
+Content-Type: application/json
+
+{
+  "nome": "Maria",
+  "email": "teste@email.com",
+  "telefone": "48999999999",
+  "empresa": "Empresa Teste",
+  "equipamento": "Caldeira",
+  "mensagem": "Gostaria de solicitar um orçamento."
+}
